@@ -1,0 +1,37 @@
+{
+  "name": "revelation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "start": "node --no-warnings index.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "chatgpt": "^5.1.2",
+    "discord.js": "^14.8.0",
+    "distube": "^4.0.4",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.2",
+    "node-cron": "^3.0.2",
+    "signale": "^1.4.0"
+  },
+  "signale": {
+    "displayScope": true,
+    "displayBadge": true,
+    "displayDate": true,
+    "displayFilename": false,
+    "displayLabel": true,
+    "displayTimestamp": true,
+    "underlineLabel": true,
+    "underlineMessage": false,
+    "underlinePrefix": false,
+    "underlineSuffix": false,
+    "uppercaseLabel": false
+  },
+  "description": "Discord bots",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
